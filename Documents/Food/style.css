@@ -1,0 +1,49 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-wrap: pretty;
+}
+body{
+    background: rgb(82, 86, 85);
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.sep{
+    border: 2px solid black;
+}
+section {
+    padding: 3px;
+    margin: 3px;
+    width: 100%;
+}
+nav{
+    width: 250px;
+}
+ul{
+    list-style: none;
+    width: 100%;
+}
+ul li{
+    width: 100%;
+}
+a{
+    display: block;
+    margin: 3px;
+    padding: 4px;
+    text-decoration: none;
+    color: rgb(228, 252, 220);
+    background: rgb(122, 128, 126);
+    outline: 1px black solid;
+    width: 100%;
+}
+a:hover{
+    background: rgb(206, 147, 11);
+    color: rgb(55, 61, 54);
+}
+a:active{
+    background: rgb(183, 163, 61);
+    color: rgb(55, 61, 54);
+}
