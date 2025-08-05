@@ -1,0 +1,11 @@
+- [Gemmi Goes To Mars](/docs/README.mdME.md)
+- [Currency Guide](/docs/Currency.mdcy.md)
+- [Food Guide](/docs/Food.mdod.md)
+- [Animal Guide](/docs/Animal.mdal.md)
+- [Plant Guide](/docs/Plant.mdnt.md)
+- Game Modes
+  - [Survival Mode](/docs/SurvivalMode.mdde.md)
+  - [Story Mode](/docs/StoryMode.mdde.md)
+- Download the latest version
+  - [Windows](/docs/WindowsDownload.mdad.md)
+  - [MacOS](/docs/MacOS.mdOS.md)
