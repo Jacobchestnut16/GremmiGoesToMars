@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+# Animals
 
-<h2>Animals</h2>
-
-<h3>Earth</h3>
-<h4>Friendly</h4>
+## Earth
+### Friendly</h4>
 
 | Name                | Type            | Description                                                     | Use                                    |
 | ------------------- | --------------- | --------------------------------------------------------------- | -------------------------------------- |
@@ -25,7 +16,7 @@
 |   Witch Elk         | NPC Pawn        | Forest spirit in deer form, sometimes speaks cryptic riddles.   | Questgiver, trades Etherium items      |
 |   Coalcat           | Pet             | Smoky-black feline that purrs like a furnace. Keeps you warm.   | Comfort, heat, maybe minor fire damage |
 
-<h4>Enemies</h4>
+### Enemies</h4>
 
 | Name                      | Type              | Description                                                                       | Behavior                          |
 | ------------------------- | ----------------- | --------------------------------------------------------------------------------- | --------------------------------- |
@@ -39,8 +30,8 @@
 |   Witchhunter Reclaimer   | Elite Humanoid    | Trained to destroy arcane beings. Resistant to magic.                             | Focuses on summoned allies        |
 
 ___
-<h3>Mars</h3>
-<h4>Friendly</h4>
+## Mars
+### Friendly</h4>
 
 | Name                 | Type        | Description                                                          | Use                                |
 | -------------------- | ----------- | -------------------------------------------------------------------- | ---------------------------------- |
@@ -54,8 +45,8 @@ ___
 |   Emberbug           | Companion   | Glows when danger is near. Emits a mild burst of heat.               | Passive defense, alert             |
 |   Rustbeak           | Combat Pet  | Bird with a metal-tipped beak that drills into helmets.              | Attack familiar, extremely loyal   |
 |   Siltwalker         | Large Mount | Moves smoothly across sand. Has a wide, flat body and long limbs.    | Heavy-duty hauler or witch’s steed |
-___
-<h4>Enemies</h4>
+
+### Enemies
 
 | Name                  | Type            | Description                                                            | Behavior                                     |
 | --------------------- | --------------- | ---------------------------------------------------------------------- | -------------------------------------------- |
@@ -507,8 +498,3 @@ Large Mount
 Sand Oil, Siltwalker Tendon
 
 Moves across dunes effortlessly
-
-
-
-</body>
-</html>

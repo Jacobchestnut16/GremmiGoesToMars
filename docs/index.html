@@ -5,54 +5,54 @@
   <title>Document</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">\
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+
 </head>
 <body>
-  <div id="app"></div>
-  <script>
-    window.$docsify = {
-      name: 'Gremmi Goes To Mars Docs',
-      repo: '',
-      loadSidebar: true,
-      loadNavbar: true,
-      search: {
-        paths: 'auto',           // Auto-index all pages (you can also list them manually)
-        placeholder: 'Search...',
-        noData: 'No results!',
-        depth: 2,                // Headings depth (e.g., h1, h2)
-      }
+<div id="app"></div>
+<script>
+  window.$docsify = {
+    name: 'Gremmi Goes To Mars Docs',
+    repo: '',
+    loadSidebar: true,
+    subMaxLevel: 3,
+    loadNavbar: true,
+    search: {
+      paths: 'auto',           // Auto-index all pages (you can also list them manually)
+      placeholder: 'Search...',
+      noData: 'No results!',
+      depth: 2,                // Headings depth (e.g., h1, h2)
     }
-  </script>
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-<!--  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>-->
-  <!-- Search plugin -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-  <style>
-    /* Ensure the search box stays at the top */
-    .sidebar .search input {
-      display: block;
-      width: 100%;
-      margin-bottom: 10px;
-    }
+  }
+</script>
 
-    /* Move the search results BELOW the input */
-    .sidebar .results-panel {
-      order: 2; /* Push below the input */
-    }
+<script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+<style>
+  /* Ensure the search box stays at the top */
+  .sidebar .search input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
 
-    /* Optional: ensure sidebar items stay at the bottom */
-    .sidebar .app-sub-sidebar {
-      order: 3;
-    }
+  /* Move the search results BELOW the input */
+  .sidebar .results-panel {
+    order: 2; /* Push below the input */
+  }
 
-    /* Ensure flexbox layout */
-    .sidebar {
-      display: flex;
-      flex-direction: column;
-    }
-  </style>
+  /* Optional: ensure sidebar items stay at the bottom */
+  .sidebar .app-sub-sidebar {
+    order: 3;
+  }
+
+  /* Ensure flexbox layout */
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+  }
+</style>
 
 </body>
 </html>
