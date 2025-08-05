@@ -1,6 +1,6 @@
 # Mac-OS
 
-<a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/docs/downloads/Mac/Alpha9.zip">Latest Download</a>
+<a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/downloads/Mac/Alpha9.zip">Latest Download</a>
 
 
 Install Directions:
@@ -22,6 +22,6 @@ Settings Privacy/Security is apples Gatekeeper, apple doesn't like files that it
 
 All Versions:
 
-- <a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/docs/downloads/Mac/Alpha3.zip">Alpha 3</a>
-- <a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/docs/downloads/Mac/Alpha4.zip">Alpha 4</a>
-- <a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/docs/downloads/Mac/Alpha9.zip">Alpha 9</a>
+- <a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/downloads/Mac/Alpha3.zip">Alpha 3</a>
+- <a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/downloads/Mac/Alpha4.zip">Alpha 4</a>
+- <a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/downloads/Mac/Alpha9.zip">Alpha 9</a>

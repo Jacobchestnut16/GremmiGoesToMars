@@ -1,6 +1,6 @@
 # Windows
 
-<a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/docs/downloads/Windows/Alpha9.zip" title="ZIP file download">Latest Download</a>
+<a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/downloads/Windows/Alpha9.zip" title="ZIP file download">Latest Download</a>
 
 
 Install Directions:
@@ -15,12 +15,12 @@ Install Directions:
 ---
 
 All Versions:
-- <a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/docs/downloads/Windows/Alpha1.zip">Alpha 1</a>
-- <a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/docs/downloads/Windows/Alpha2.zip">Alpha 2</a>
-- <a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/docs/downloads/Windows/Alpha3.zip">Alpha 3</a>
-- <a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/docs/downloads/Windows/Alpha4.zip">Alpha 4</a>
-- <a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/docs/downloads/Windows/Alpha5.zip">Alpha 5</a>
-- <a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/docs/downloads/Windows/Alpha6.zip">Alpha 6</a>
-- <a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/docs/downloads/Windows/Alpha7.zip">Alpha 7</a>
-- <a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/docs/downloads/Windows/Alpha8.zip">Alpha 8</a>
-- <a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/docs/downloads/Windows/Alpha9.zip">Alpha 9</a>
+- <a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/downloads/Windows/Alpha1.zip">Alpha 1</a>
+- <a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/downloads/Windows/Alpha2.zip">Alpha 2</a>
+- <a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/downloads/Windows/Alpha3.zip">Alpha 3</a>
+- <a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/downloads/Windows/Alpha4.zip">Alpha 4</a>
+- <a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/downloads/Windows/Alpha5.zip">Alpha 5</a>
+- <a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/downloads/Windows/Alpha6.zip">Alpha 6</a>
+- <a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/downloads/Windows/Alpha7.zip">Alpha 7</a>
+- <a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/downloads/Windows/Alpha8.zip">Alpha 8</a>
+- <a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/downloads/Windows/Alpha9.zip">Alpha 9</a>

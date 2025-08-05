@@ -1,4 +1,5 @@
 - [Gemmi Goes To Mars](README.md)
+- [How To Play](MasterGameDoc.md)
 - [Currency Guide](Currency.md)
 - [Food Guide](Food.md)
 - [Animal Guide](Animal.md)
@@ -9,3 +10,4 @@
 - Download the latest version
   - [Windows](WindowsDownload.md)
   - [MacOS](MacOS.md)
+- [Contact the Developer](Contact.md)

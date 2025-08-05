@@ -1,12 +1,15 @@
 # Gemmi Goes To Mars
-<p>What to do on spawn:</p>
-<ul>
-  <li>Find the witches hut</li>
-  <li>Start filling your space ship with food and seeds</li>
-  <li>Start any available quest</li>
-  <li>Purchase as much as you can from the Witches Earth shop</li>
-  <li>Earn money to pay off the Kingdom or spend mars in terrible debt</li>
-</ul>
+## What can be done in the latest version
+* Enter the witches house and S.S. Mars
+* Interact with plants
+* Pick up 4 hotdogs
+* Talk to the witch
+* Interact with most pages in the Witches market
+* Open your inventory
+* Select hotbar items
+* Pause and Quit the game
+
+
 
     What is new:
 

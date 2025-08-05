@@ -17,18 +17,23 @@
     repo: '',
     loadSidebar: true,
     subMaxLevel: 3,
+    autoHeader: true,
     loadNavbar: true,
     search: {
       paths: 'auto',           // Auto-index all pages (you can also list them manually)
       placeholder: 'Search...',
       noData: 'No results!',
-      depth: 2,                // Headings depth (e.g., h1, h2)
-    }
+      depth: 6,
+    },
+    externalLinkTarget: '_blank',
+    routerMode: 'history'
   }
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
 <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+
 <style>
   /* Ensure the search box stays at the top */
   .sidebar .search input {

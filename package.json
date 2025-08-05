@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "docsify serve docs"
+    "start": "docsify serve dist"
   },
   "keywords": [],
   "author": "Jacob Chestnut",
   "license": "ISC",
-  "description": "Docs"
+  "description": "Docs",
+  "dependencies": {
+    "docsify": "^4.13.1"
+  }
 }
