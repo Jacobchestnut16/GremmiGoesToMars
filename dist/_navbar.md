@@ -1,0 +1,5 @@
+* [Download Game](DownloadGame.md)
+  * [Windows](DownloadGame#windows)
+  * [MacOs](DownloadGame#mac-os)
+* [How To Play](MasterGameDoc.md)
+* [Contact The Developer](Contact.md)

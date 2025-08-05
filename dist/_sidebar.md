@@ -1,4 +1,3 @@
-- [Gemmi Goes To Mars](README.md)
 - [How To Play](MasterGameDoc.md)
 - [Currency Guide](Currency.md)
 - [Food Guide](Food.md)
@@ -7,7 +6,5 @@
 - Game Modes
   - [Survival Mode](SurvivalMode.md)
   - [Story Mode](StoryMode.md)
-- Download the latest version
-  - [Windows](WindowsDownload.md)
-  - [MacOS](MacOS.md)
+- [Download Game](DownloadGame.md)
 - [Contact the Developer](Contact.md)
