@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Title</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<h3>Ingredient Plants & Sources for Foods</h3>
+# Ingredient Plants & Sources for Foods
 
 <h4>Earth Plants</h4>
 <table>
@@ -31,6 +22,8 @@
   </tbody>
 </table>
 
+---
+
 <h4>Mars Plants</h4>
 <table>
   <thead>
@@ -50,6 +43,8 @@
   </tbody>
 </table>
 
+---
+
 <h4>Market-Only & Magical Ingredients</h4>
 <table>
   <thead>
@@ -68,7 +63,3 @@
   <tr><td>Witchapple Tree</td><td>Eclipse groves</td><td>Witchapple Core</td><td>Rare tree; fruit cursed or blessed by celestial alignments.</td></tr>
   </tbody>
 </table>
-
-
-</body>
-</html>

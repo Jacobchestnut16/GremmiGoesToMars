@@ -11,7 +11,7 @@
 
 <h3>Earth</h3>
 <h4>Friendly</h4>
-<pre>
+
 | Name                | Type            | Description                                                     | Use                                    |
 | ------------------- | --------------- | --------------------------------------------------------------- | -------------------------------------- |
 |   Bograt            | Companion       | Filthy, loyal rat the size of a housecat. Eats anything.        | Carries items, detects poison          |
@@ -24,9 +24,9 @@
 |   Howling Badger    | Wild            | Unstable badger that shrieks before attacking. Often rabid.     | Meat source, pelt, dangerous           |
 |   Witch Elk         | NPC Pawn        | Forest spirit in deer form, sometimes speaks cryptic riddles.   | Questgiver, trades Etherium items      |
 |   Coalcat           | Pet             | Smoky-black feline that purrs like a furnace. Keeps you warm.   | Comfort, heat, maybe minor fire damage |
-</pre>
+
 <h4>Enemies</h4>
-<pre>
+
 | Name                      | Type              | Description                                                                       | Behavior                          |
 | ------------------------- | ----------------- | --------------------------------------------------------------------------------- | --------------------------------- |
 |   King’s Branders         | Humanoid Soldiers | Elite exile enforcers wielding hot-iron brands and enchanted shields.             | Patrols, high defense             |
@@ -38,11 +38,10 @@
 |   Bitter Shade            | Undead Spirit     | A ghost of wrongly accused goblins — hostile to all.                              | Phases through walls, causes fear |
 |   Witchhunter Reclaimer   | Elite Humanoid    | Trained to destroy arcane beings. Resistant to magic.                             | Focuses on summoned allies        |
 
-</pre>
-<div class="sep"></div>
+___
 <h3>Mars</h3>
 <h4>Friendly</h4>
-<pre>
+
 | Name                 | Type        | Description                                                          | Use                                |
 | -------------------- | ----------- | -------------------------------------------------------------------- | ---------------------------------- |
 |   Redcap Hopper      | Mount       | Long-legged insectoid with four knees and springy jumps.             | Fast transport, hard to control    |
@@ -55,9 +54,9 @@
 |   Emberbug           | Companion   | Glows when danger is near. Emits a mild burst of heat.               | Passive defense, alert             |
 |   Rustbeak           | Combat Pet  | Bird with a metal-tipped beak that drills into helmets.              | Attack familiar, extremely loyal   |
 |   Siltwalker         | Large Mount | Moves smoothly across sand. Has a wide, flat body and long limbs.    | Heavy-duty hauler or witch’s steed |
-</pre>
+___
 <h4>Enemies</h4>
-<pre>
+
 | Name                  | Type            | Description                                                            | Behavior                                     |
 | --------------------- | --------------- | ---------------------------------------------------------------------- | -------------------------------------------- |
 |   Ashmaw              | Beast           | Ambush predator buried in sand, giant mouth full of stone teeth.       | Burrows, grabs from below                    |
@@ -69,7 +68,8 @@
 |   Thornjaw Grax       | Beast           | Rhino-lizard hybrid with armored hide and spiked tongue.               | Charges, toxic saliva                        |
 |   Red Vult King       | Flying Beast    | Leader of the Mars Vultures. Gathers tech and commands flocks.         | Boss-level, disrupts tech tools              |
 
-</pre>
+___
+---
 
 Guide for their stats still finalizing:
 

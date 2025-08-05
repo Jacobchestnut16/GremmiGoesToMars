@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Documentation</title>
-    <link rel="stylesheet" href="style.css">
-
-</head>
-<body>
+# Gemmi Goes To Mars
 <p>What to do on spawn:</p>
 <ul>
   <li>Find the witches hut</li>
@@ -15,7 +7,6 @@
   <li>Purchase as much as you can from the Witches Earth shop</li>
   <li>Earn money to pay off the Kingdom or spend mars in terrible debt</li>
 </ul>
-<pre>
 
     What is new:
 
@@ -100,7 +91,3 @@
     x Tamed animals
     x Hunger added
     x Feeder from witch - hand feed else
-
-</pre>
-</body>
-</html>

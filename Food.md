@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="style.css">
+# Food Guide
+## Earth food
 
-</head>
-<body>
-<h2>Earth food</h2>
-<pre>
 | Name                 | Suggested Price | Description                                                                                       |
 | -------------------- | --------------- | ------------------------------------------------------------------------------------------------- |
 | Cinderbread          | 8 Ashcoins      | Charred black, smoky bread made from volcanic wheat and fire salts. Loved by goblins.             |
@@ -21,10 +13,10 @@
 | Feyfruit             | 3 Starshards    | Forbidden fruit traded from the Fae realm. Changes flavor based on who eats it.                   |
 | Skullberry Jam       | 2 Moonbits      | Looks like little skulls, tastes like blackberries and iron. Popular among warlocks.              |
 | Bog Butter           | 1 Moonbit       | Preserved butter dug from ancient swamps. Rich, salty, and mysteriously green.                    |
-</pre>
 
-<h2>Mars</h2>
-<pre>
+
+## Mars food
+
 | Name               | Suggested Price | Description                                                                                         |
 | ------------------ | --------------- | --------------------------------------------------------------------------------------------------- |
 | Redvine Tangle     | 5 Ashcoins      | A stringy, vine-like plant that tangles into knots when ripe. Earthy taste, good for soups or rope. |
@@ -37,10 +29,9 @@
 | Witch’s Thistle    | 1 Starshard     | Thorny plant that blooms only during arcane storms. Can be brewed into a potent tonic.              |
 | Cratercorn         | 3 Moonbits      | A rare corn variant with lava-orange kernels. Pops with small sparks; used in festive meals.        |
 | Frostmoss          | 2 Moonbits      | Grows in cold-shaded crevices. Bitter, cools the mouth when chewed. Used in desserts or poultices.  |
-</pre>
 
-<h2>Market Only</h2>
-<pre>
+# Market Only
+
 | Name              | Suggested Price | Description                                                                                                                              |
 | ----------------- | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | Voidberry Tart    | 1 Starshard     | A pitch-black pastry made with berries from the “Garden Between Realms.” Grants brief invisibility, but leaves a bitter taste in memory. |
@@ -53,9 +44,8 @@
 | Marrowmash        | 1 Suncrown      | Rich stew made from otherworldly bones and root vegetables. Temporarily boosts strength, but may summon whispers.                        |
 | Chrono Crumbs     | 3 Starshards    | Time-warped bread bits used as garnish. Extend the duration of buffs by a few seconds or undo the last inventory action.                 |
 | Witchapple Core   | 1–2 Suncrowns   | Grows only once every eclipse. Grants extreme vitality or curses you for hoarding it (depends on alignment).                             |
-</pre>
 
-<h1>Recipes</h1>
+# Recipes
 
 <h3>Earth Food Recipes</h3>
 <table>
@@ -300,7 +290,3 @@
     </tr>
     </tbody>
 </table>
-
-
-</body>
-</html>
