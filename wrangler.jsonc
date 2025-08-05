@@ -1,5 +1,5 @@
 {
-  "name": "GremmiGoesToMars",
+  "name": "ggtm",
   "compatibility_date": "2025-08-05",
   "assets": {
     "directory": "./dist"
