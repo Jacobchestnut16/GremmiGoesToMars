@@ -51,3 +51,10 @@ There are many things the witch will provide for you: The [Guide Book](#the-guid
   * Unlocks quests
   * Unlocks more item in the Market
   * Helps lower prices of good (*Friendship discount*)
+
+### What to do on S.S. Mars
+
+#### On ship Cot
+* Since you were exiled you have no home
+* The ship includes your only bed
+* Press on it when it gets dark enough and time will move forward

@@ -8,44 +8,18 @@
 * Open your inventory
 * Select hotbar items
 * Pause and Quit the game
+* Drop items was added to the game
+* Day/Night time
+* Bed, When pressed on time will skip
+* New Map tile, and new noise generation
 
 
 
-    What is new:
 
-    - Added new UI layout matches to the screen
-    - Info bar now show speed, level and money
-    - Hot Dog Item at the start of the game
-    - Inventory Management
-    - Inventory Item selectable
-    - Witches Market GUI
-    - Mini Map
-    - Wallet
-    - Witches Conversation
-    - Plant cutting/harvesting
-    - Guide menu in Witches home market
-    - Button Mapping (not changeable in settings yet)
-    - Game Menu
-
-    Latest Version  x means not available yet:
+    Latest Version  (x) means not available yet:
 
     x Points
     • Point indicator
-
-    • Food/crops
-    • Crop status on click
-    • Crop harvest in menu (requirements?)
-    • Auto replant on harvest
-    • Backpack eat food
-    • GrainMice can be grabbed with hands or clippers
-    • Mahcrea requires a basket
-
-    • Collisions
-    • Proper witches home collision
-    • Proper SSMars collision
-    • SSMars scene
-    • Witches home scene
-    • Note movement within these scenes is along x only unless they are just menus
 
     x Quests
     • Unlock by level
@@ -62,7 +36,6 @@
     x Witches Quests are a design to get free items This will boost friendship, and maybe spell cast
 
     • Witches market
-    x Mars hut
     x Time freeze 1 level ≈ 1 day
     • Basket
 

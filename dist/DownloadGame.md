@@ -2,7 +2,7 @@
 
 ## Windows
 
-<a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/downloads/Windows/Alpha9.zip" title="ZIP file download">Latest Download</a>
+<a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/downloads/Windows/Alpha10.zip" title="ZIP file download">Latest Download</a>
 
 <details>
   <summary>Other Windows Versions</summary>
@@ -16,6 +16,7 @@
 - <a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/downloads/Windows/Alpha7.zip">Alpha 7</a>
 - <a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/downloads/Windows/Alpha8.zip">Alpha 8</a>
 - <a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/downloads/Windows/Alpha9.zip">Alpha 9</a>
+- <a href="https://github.com/Jacobchestnut16/GremmiGoesToMars/raw/refs/heads/master/downloads/Windows/Alpha10.zip">Alpha 10</a>
 
 </details>
 
