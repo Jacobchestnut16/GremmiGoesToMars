@@ -1,4 +1,5 @@
 - [How To Play](MasterGameDoc.md)
+- [Quest Lands](Quests.md)
 - [Currency Guide](Currency.md)
 - [Food Guide](Food.md)
 - [Animal Guide](Animal.md)

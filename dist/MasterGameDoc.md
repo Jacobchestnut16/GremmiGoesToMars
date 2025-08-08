@@ -24,10 +24,17 @@ you owe the kingdom before your exile date.
 > This should be near by where you spawn in. If you walk up to it you will enter the ship.
 > To exit the ship just walk out the door.
 
-> #### Locate the Witches Home
+> #### Unlock and Locate the Witches Home
 > The witches home will likely be near a swamp, so look thorough mud, swamps, or cold area.
 > If you walk up to the home you will enter it.
 > To exit the home just walk out the door.
+
+### What to do on S.S. Mars
+
+#### On ship Cot
+* Since you were exiled you have no home
+* The ship includes your only bed
+* Press on it when it gets dark enough and time will move forward
 
 ### What to do in the Witches Home
 There are many things the witch will provide for you: The [Guide Book](#the-guide-book), [House Market](#house-market), [Witches Quests](#witches-quests), and [Talk to the Witch](#talk-to-the-witch)
@@ -51,10 +58,3 @@ There are many things the witch will provide for you: The [Guide Book](#the-guid
   * Unlocks quests
   * Unlocks more item in the Market
   * Helps lower prices of good (*Friendship discount*)
-
-### What to do on S.S. Mars
-
-#### On ship Cot
-* Since you were exiled you have no home
-* The ship includes your only bed
-* Press on it when it gets dark enough and time will move forward
