@@ -57,6 +57,7 @@ Every choice changes what happens when the Debt comes to collect… on Mars.
 * Bed, When pressed on time will skip
 * New Map tile, and new noise generation
 * Start Screen. 
+* Intro Scene
 
 This concludes the Alpha files. Beta 1 will begin here, then all downloads will be 
 referred to Steam following Beta 1.
