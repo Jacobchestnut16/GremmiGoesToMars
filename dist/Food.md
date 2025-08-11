@@ -1,18 +1,19 @@
 # Food Guide
 ## Earth food
 
-| Name                 | Suggested Price | Description                                                                                       |
-| -------------------- | --------------- | ------------------------------------------------------------------------------------------------- |
-| Cinderbread          | 8 Ashcoins      | Charred black, smoky bread made from volcanic wheat and fire salts. Loved by goblins.             |
-| Witchmilk Cheese     | 2 Moonbits      | Tangy and slightly glowing; made from beast milk fermented in moonlight.                          |
-| Glowroot Stew        | 15 Ashcoins     | Made from spicy root vegetables that softly illuminate the bowl. Warms the body in harsh weather. |
-| Banshee’s Breath Ale | 1 Starshard     | Screams faintly when opened. High-proof, brewed with ghost peppers and night herbs.               |
-| Gobshroom Jerky      | 12 Ashcoins     | Dried fungi, marinated in troll bile and honey. Questionable texture, great protein.              |
-| Pixie Dust Pastries  | 2 Moonbits      | Sweet treats filled with shimmerfruit jam; may cause temporary levitation.                        |
-| Lava Beans           | 1 Moonbit       | Coffee-like beans from fire mountain regions. Brewed thick and gritty, excellent stamina boost.   |
-| Feyfruit             | 3 Starshards    | Forbidden fruit traded from the Fae realm. Changes flavor based on who eats it.                   |
-| Skullberry Jam       | 2 Moonbits      | Looks like little skulls, tastes like blackberries and iron. Popular among warlocks.              |
-| Bog Butter           | 1 Moonbit       | Preserved butter dug from ancient swamps. Rich, salty, and mysteriously green.                    |
+| Name                 | Ingredients                         | Suggested Price | Description                                                                                       |
+| -------------------- |-------------------------------------| --------------- | ------------------------------------------------------------------------------------------------- |
+| Cinderbread          | 2x Volcanic Wheat, 1x Fire Salts    | 8 Ashcoins      | Charred black, smoky bread made from volcanic wheat and fire salts. Loved by goblins.             |
+| Witchmilk Cheese     | 1x Moonmilk Vine, 1x Beast Milk     | 2 Moonbits      | Tangy and slightly glowing; made from beast milk fermented in moonlight.                          |
+| Glowroot Stew        | 2x Glowroot, 1x Bogroot Water       | 15 Ashcoins     | Made from spicy root vegetables that softly illuminate the bowl. Warms the body in harsh weather. |
+| Banshee’s Breath Ale | 1x Nightshade Herb, 1x Ghost Pepper | 1 Starshard     | Screams faintly when opened. High-proof, brewed with ghost peppers and night herbs.               |
+| Gobshroom Jerky      | 1x Gobshroom, 1x Fire Beans         | 12 Ashcoins     | Dried fungi, marinated in troll bile and honey. Questionable texture, great protein.              |
+| Pixie Dust Pastries  | 2x Shimmerfruit, 1x Flour (any)     | 2 Moonbits      | Sweet treats filled with shimmerfruit jam; may cause temporary levitation.                        |
+| Lava Beans           | 2x Fire Beans                       | 1 Moonbit       | Coffee-like beans from fire mountain regions. Brewed thick and gritty, excellent stamina boost.   |
+| Feyfruit             | 1x Feyfruit                         | 3 Starshards    | Forbidden fruit traded from the Fae realm. Changes flavor based on who eats it.                   |
+| Skullberry Jam       | 2x Skullberry, 1x Bogroot Water     | 2 Moonbits      | Looks like little skulls, tastes like blackberries and iron. Popular among warlocks.              |
+| Bog Butter           | 1x Bogroot, 1x Beast Milk           | 1 Moonbit       | Preserved butter dug from ancient swamps. Rich, salty, and mysteriously green.                    |
+
 
 
 ## Mars food
@@ -46,87 +47,6 @@
 | Witchapple Core   | 1–2 Suncrowns   | Grows only once every eclipse. Grants extreme vitality or curses you for hoarding it (depends on alignment).                             |
 
 # Recipes
-
-<h3>Earth Food Recipes</h3>
-<table>
-    <thead>
-    <tr>
-        <th>Food Item</th><th>Ingredients</th><th>Crafting Station</th><th>Steps</th><th>Effect</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>Cinderbread</td>
-        <td>2x Volcanic Wheat, 1x Fire Salts</td>
-        <td>Stone Oven</td>
-        <td>Grind wheat → mix with salts → bake until charred</td>
-        <td>+Heat resistance (short)</td>
-    </tr>
-    <tr>
-        <td>Witchmilk Cheese</td>
-        <td>1x Moonmilk Vine, 1x Beast Milk</td>
-        <td>Cheese Press (Moonlit)</td>
-        <td>Milk → add vine extract → ferment under moonlight</td>
-        <td>+Minor health regen</td>
-    </tr>
-    <tr>
-        <td>Glowroot Stew</td>
-        <td>2x Glowroot, 1x Bogroot Water</td>
-        <td>Cauldron</td>
-        <td>Chop roots → boil slowly → serve hot</td>
-        <td>+Warmth buff in cold</td>
-    </tr>
-    <tr>
-        <td>Banshee’s Breath Ale</td>
-        <td>1x Nightshade Herb, 1x Ghost Pepper</td>
-        <td>Spirit Brewer</td>
-        <td>Brew with nightshade → infuse pepper → bottle during night</td>
-        <td>+Speed buff, -1 Charisma (brief)</td>
-    </tr>
-    <tr>
-        <td>Gobshroom Jerky</td>
-        <td>1x Gobshroom, 1x Trollvine Honey</td>
-        <td>Drying Rack</td>
-        <td>Marinate → dry for 3 nights</td>
-        <td>+Stamina recovery</td>
-    </tr>
-    <tr>
-        <td>Pixie Dust Pastries</td>
-        <td>2x Shimmerfruit, 1x Flour (any)</td>
-        <td>Enchanted Oven</td>
-        <td>Jam fruit → fill pastry → bake until sparkles</td>
-        <td>+Levitation (brief hop)</td>
-    </tr>
-    <tr>
-        <td>Lava Beans</td>
-        <td>2x Fire Beans</td>
-        <td>Smokepot</td>
-        <td>Roast until bitter and thick</td>
-        <td>+Energy/Stamina boost</td>
-    </tr>
-    <tr>
-        <td>Feyfruit</td>
-        <td>1x Feyfruit</td>
-        <td>None</td>
-        <td>Eat raw, or brew into tea</td>
-        <td>Random minor buff per eater</td>
-    </tr>
-    <tr>
-        <td>Skullberry Jam</td>
-        <td>2x Skullberry, 1x Bogroot Water</td>
-        <td>Jam Pot</td>
-        <td>Boil until thick → jar</td>
-        <td>+Resistance to fear (brief)</td>
-    </tr>
-    <tr>
-        <td>Bog Butter</td>
-        <td>1x Bogroot, 1x Beast Milk</td>
-        <td>Fermentation Pit</td>
-        <td>Wrap tuber in cloth → ferment in bog</td>
-        <td>+Fat reserves (slow hunger loss)</td>
-    </tr>
-    </tbody>
-</table>
 
 <h3>Mars Food Recipes</h3>
 <table>
