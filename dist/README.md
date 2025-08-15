@@ -1,88 +1,81 @@
-# Gemmi Goes To Mars
+# Gremmi Goes To Mars
+
+A goblin Banished to Mars by a petty kingdom
+Gremmi, his name is, has only a few days to prepare for survival or ... be met with certain doom ... on Mars ...
+His goals are
+Befriend the witch, Unlock portals around Earth, Gather strange supplies, and Cast weird spells
+
+All in this 2D survival fantasy where exile is just the beginning.
+
+Craft. Farm. Fight. And maybe… get even.
+
+## Game Development process:
+
+```mermaid
+---
+    title: Game commit process
+    config:
+        theme: dark
+---
+gitGraph
+    commit id: "Store Page"
+    branch development
+    commit id: "TileMap v1.0"
+    
+```
 
 
-Gremmi Goes to Mars
-Exiled. Broke. Slightly radioactive.
-Gremmi, a scrappy goblin with a taste for junk and rebellion, has just been sentenced to the worst punishment imaginable: banishment to Mars.
+main = Steam releases or updates
 
-Stripped of his home and belongings by the human kingdom of Eldhollow, Gremmi has only few days on Earth
-to prepare. Pack your shuttle. Scrounge for coins. Bribe the kingdom’s Debt Collector.
-And — if you want any shot at survival — make a deal with the witch.
-
-## 🌌 Explore, Survive, and Outwit Mars
-Once launched, you'll land in a strange and hostile Martian frontier. Survive by crafting, farming,
-and learning magic from the witch’s grimoire. Grow alien crops. Hunt for supplies.
-Unlock spells like Flame or Time Freeze to protect yourself from what lurks beyond the crater edge.
-
-## Or in the story mode follow the quests to be guided from earth to mars surviving with what you can gather
-
-### 🔮 The Witch’s Questlands
-Earn the witch’s trust to unlock mysterious portals back to ancient, forgotten biomes on Earth:
-
-### 🌾 Sto Glyer – Whispering plains haunted by scavenger spirits
-
-### 🌿 Smeekly Wamp – A festering swamp full of sleeping horrors
-
-### 🔥 Deesek Savanna – Cracked deserts that hide burning beasts
-
-### ❄️ Marsh Anke Land – A sunken tundra frozen in time
-
-### 🌲 Pillos Hallow – A forest where memory and magic collide
-
-Fight through each of these lands collect items and unlock new spells or crafts
-
-## 💰 Deal With the Debt Collector
-Before takeoff, Gremmi must settle a final score with the kingdom: pay, promise, or provoke.
-Every choice changes what happens when the Debt comes to collect… on Mars.
-
-🧪 Features
-* 🔥 2D survival with spellcasting and potion crafting
-* 🌱 Farming, gathering, and cooking on a hostile planet
-* 🧙 Witch market with unlockable spells, gear, and secrets
-* 🛠️ Procedural seeds like "Roots", "Cracks", "Hollow" generate world flavor
-* 🎮 Story mode & sandbox/multiplayer mode planned
+development = releases or changes to the game. These releases can be found for download in beta downloads (eg. [download](DownloadGame.md), Steam pre-release)
 
 
-## What can be done in the latest version
-* Enter the witches house and S.S. Mars
-* Interact with plants
-* Pick up 4 hotdogs
-* Talk to the witch
-* Interact with most pages in the Witches market
-* Open your inventory
-* Select hotbar items
-* Pause and Quit the game
-* Drop items was added to the game
-* Day/Night time
-* Bed, When pressed on time will skip
-* New Map tile, and new noise generation
-* Start Screen. 
-* Intro Scene
+### Time line:
 
-This concludes the Alpha files. Beta 1 will begin here, then all downloads will be 
-referred to Steam following Beta 1.
-
-
-
-    Latest Version  (x) means not available yet:
-
-    x Points
-    • Point indicator
-
-    x Auto tasks
-    x Menu that will create orders to do tasks idle game open only
-    • Get these by level and purchase from the witch
-
-    x Oxygen
-    • Add planet to pawn
-
-    • Earth
-    x enemy tower
-    x Exiler pawn tells them they’re being exiled ordered by their kingdom, to visit the Witch in their Witches Home so that they can prepare for their new life on mars.
-
-    x Wild animals
-    x No hunger
-
-    x Tamed animals
-    x Hunger added
-    x Feeder from witch - hand feed else
+```mermaid
+%%{init: {'gantt': {
+    'leftPadding': 200,
+    'barHeight': 25,
+    'barGap': 15,
+    'topPadding': 60
+}}}%%
+gantt
+    title Gremmi Goes to Mars - Sandbox Survival Development
+    dateFormat  YYYY-MM-DD
+    axisFormat  %b %d
+    
+    section Milestone 1 - World Foundation
+    Tilemap Generation                          :crit, active, a1, 2025-08-14, 2d
+    Plants                                      :a6, after a1, 3d
+    Minerals/stone/walls                        :a4, after a1, 2d
+    Tree Generation                             :a5, after a6, 2d
+    Time Scale / Day-Night Cycle                :crit, a2, after a1, 1d
+    
+    section Milestone 2 - Player Core
+    Gremmi Movement                 :crit, b1, after a1, 0.5d
+    D&D-style Stat Generation       :b2, after b1, 0.5d
+    Inventory System                :crit, b3, after b2, 2d
+    Resource Interaction/Gather     :b5, after b3, 1d
+    Saving & Loading                :milestone, b4, after b3, 2d
+    
+    section Milestone 3 - UI refining
+    UI system - BETA V1 OFFICIAL RELEASE     :milestone, c1, after b4, 5d
+    
+    section 4 - extra usages
+    Inventory Dumping (Chests, Shelves) :milestone, f1, after c1, 4d
+    
+    section Milestone 4 - Combat & Entities
+    Enemy Entities (AI + Spawning) :d1, after c1, 8d
+    Friendly Entities (NPC AI)     :d2, after d1, 6d
+    Crafting - Potions             :crit, d3, after c1, 4d
+    Crafting - Spells              :crit, d4, after d3, 4d
+    Crafting - Items/Resources     :crit, d5, after d4, 5d
+    Base Building                  :crit, d6, after c1, 10d
+    
+        section Milestone 3 - UI refining
+    UI system - BETA V2 OFFICIAL RELEASE     :milestone, c2, after d6, 5d
+    
+    section Milestone 5 - Advanced Simulation
+    Background Task System (Queued Tasks) :e1, after c2, 8d
+    Task Automation Logic                 :e2, after e1, 6d
+```

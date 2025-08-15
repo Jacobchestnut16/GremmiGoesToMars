@@ -46,6 +46,38 @@
 <!--<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>-->
 <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+<!-- Mermaid -->
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+  mermaid.initialize({ startOnLoad: false });
+</script>
+
+<!-- Docsify Mermaid Plugin -->
+<script>
+  const mermaidRenderer = {
+    code: function(code, lang) {
+      if (lang === 'mermaid') {
+        return '<div class="mermaid">' + code + '</div>';
+      }
+      return this.origin.code.apply(this, arguments);
+    }
+  };
+
+  // Merge into existing markdown renderer
+  window.$docsify.markdown = window.$docsify.markdown || {};
+  window.$docsify.markdown.renderer = Object.assign(
+          window.$docsify.markdown.renderer || {},
+          mermaidRenderer
+  );
+
+  // Add Mermaid plugin
+  window.$docsify.plugins = (window.$docsify.plugins || []).concat(function(hook) {
+    hook.doneEach(function() {
+      mermaid.init(undefined, document.querySelectorAll('.mermaid'));
+    });
+  });
+</script>
+
 
 <style>
   /* Ensure the search box stays at the top */
@@ -69,6 +101,31 @@
   .sidebar {
     display: flex;
     flex-direction: column;
+  }
+
+  .mermaid > svg text:first-of-type {
+    fill: #ffffff !important; /* white title */
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  /* Axis/date labels */
+  .mermaid > svg g.axis text {
+    fill: #ffffff !important; /* white dates */
+  }
+
+  /* Section headers */
+  .mermaid > svg g.section text {
+    fill: #ffffff !important; /* white section labels */
+  }
+
+  /* Task bar text */
+  .mermaid > svg g.task text {
+    fill: #ffffff !important; /* white task text */
+  }
+  .mermaid > svg text {
+    fill: #ffffff !important;
+    font-size: 12px !important;
   }
 </style>
 
