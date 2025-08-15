@@ -22,6 +22,7 @@ gitGraph
     branch development
     commit id: "TileMap v1.0"
     commit id: "TileMap v1.1"
+    commit id: "TimeCycle v1.0"
     
 ```
 
@@ -57,15 +58,17 @@ gantt
     axisFormat  %b %d
     
     
-    section Milestone 1 - World Foundation
+    section World Foundation
     Tilemap Generation                          :crit, done, a1, 2025-08-14, 2d
-    Plants                                      :a6, after a1, 3d
-    Minerals/stone/walls                        :a4, after a1, 2d
-    Tree Generation                             :a5, after a6, 2d
-    Time Scale / Day-Night Cycle                :crit, a2, after a1, 1d
+    Time Scale / Day-Night Cycle                :crit, done, a2, after a1, 1d
     
-    section Milestone 2 - Player Core
-    Gremmi Movement                 :crit, b1, after a2, 0.5d
+    section Minerals/Agriculture
+    Plants                                      :crit, a6, after a1, 0.75d
+    Minerals/stone/walls                        :crit, a4, after a1, 0.75d
+    Tree Generation                             :a5, after a6, 0.75d
+    
+    section Player Core
+    Gremmi Movement                 :crit, b1, after a5, 0.5d
     D&D-style Stat Generation       :b2, after b1, 0.5d
     Inventory System                :crit, b3, after b1, 2d
     Resource Interaction/Gather     :crit, b5, after b3, 1d
@@ -74,14 +77,14 @@ gantt
     section Refine and release
     UI system - BETA V1 OFFICIAL RELEASE     :milestone, c1, after b4, 5d
     
-    section Milestone 3 - extras 1
+    section Milestone - extras 1
     Inventory Dumping (Chests, Shelves) :milestone, f1, after c1, 4d
     
-    section Milestone 4 - Combat & Entities
+    section Combat & Entities
     Enemy Entities (AI + Spawning) :d1, after c1, 8d
     Friendly Entities (NPC AI)     :d2, after d1, 6d
     
-    section Milestone 5 - Crafting & Building
+    section Crafting & Building
     Base Building                  :crit, d6, after c1, 10d
     Crafting - Items/Resources     :crit, d5, after c1, 5d
     Crafting - Spells              :crit, d4, after d5, 4d
@@ -90,7 +93,7 @@ gantt
     section Refine and release 2
     UI system - BETA V2 OFFICIAL RELEASE     :milestone, c2, after d6, 5d
     
-    section Milestone 6 - Advanced Simulation
+    section Advanced Simulation
     Background Task System (Queued Tasks) :e1, after c2, 8d
     Task Automation Logic                 :e2, after e1, 6d
 ```
