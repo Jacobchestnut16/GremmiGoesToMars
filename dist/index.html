@@ -127,6 +127,30 @@
     fill: #ffffff !important;
     font-size: 12px !important;
   }
+  gantt .done rect.task,
+  svg g.done rect.task {
+    fill: #4caf50 !important;   /* Green fill */
+    stroke: #388e3c !important; /* Darker border */
+  }
+
+  /* Target the text labels of 'done' tasks */
+  gantt .done text.taskText,
+  svg g.done text.taskText {
+    fill: #4caf50 !important; /* Green text */
+    font-weight: bold;
+  }
+
+  /* Regular done tasks (non-critical) */
+  rect[class^="done"] {
+    fill: #2b522e !important;
+    stroke: #727c72 !important;
+  }
+
+  text[class^="doneText"] {
+    fill: #ffffff !important;
+    font-weight: bold;
+  }
+
 </style>
 
 </body>
