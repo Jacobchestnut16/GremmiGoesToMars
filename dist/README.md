@@ -23,6 +23,7 @@ gitGraph
     commit id: "TileMap v1.0"
     commit id: "TileMap v1.1"
     commit id: "TimeCycle v1.0"
+    commit id: "TimeCycle v1.1"
     
 ```
 
