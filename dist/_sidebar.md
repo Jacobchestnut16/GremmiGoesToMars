@@ -2,5 +2,6 @@
 - Game Mechanics
   - [Time](Time.md)
 - [Currency Guide](Currency.md)
+- [Food Guide](Food.md)
 - [Download Game](DownloadGame.md)
 - [Contact the Developer](Contact.md)
