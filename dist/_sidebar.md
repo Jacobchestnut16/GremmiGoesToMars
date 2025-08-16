@@ -1,11 +1,6 @@
 - [How To Play](MasterGameDoc.md)
-- [Quest Lands](Quests.md)
+- Game Mechanics
+  - [Time](Time.md)
 - [Currency Guide](Currency.md)
-- [Food Guide](Food.md)
-- [Animal Guide](Animal.md)
-- [Plant Guide](Plant.md)
-- Game Modes
-  - [Survival Mode](SurvivalMode.md)
-  - [Story Mode](StoryMode.md)
 - [Download Game](DownloadGame.md)
 - [Contact the Developer](Contact.md)
