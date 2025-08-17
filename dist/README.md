@@ -26,6 +26,8 @@ gitGraph
     commit id: "TimeCycle v1.1"
     commit id: "TilePallet-Walls v1.0"
     commit id: "TilePallet-Mountain v1.0"
+    commit id: "TileMap-Mountain v1.0"
+    commit id: "PlantI.F. v1.0"
     
 ```
 
@@ -66,9 +68,10 @@ gantt
     Time Scale / Day-Night Cycle                :crit, done, a2, after a1, 1d
     
     section Minerals/Agriculture
-    Minerals/stone/walls                        :crit, active, a4, after a2, 3d
-    Plants                                      :crit, a6, after a4, 0.75d
-    Tree Generation                             :a5, after a6, 0.75d
+    Stone Mountains                             :crit, done, a4, after a2, 1.5d
+    Plants                                      :crit, active, a5, after a4, 0.75d
+    Tree Generation                             :crit, a6, after a5, 0.75d
+   
     
     section Player Core
     Gremmi Movement                 :crit, b1, after a6, 0.5d
@@ -114,7 +117,9 @@ gantt
     
         
     section Milestone - extras 1
-    Inventory Dumping (Chests, Shelves) :a1, 2025-08-30, 2d
+    Minerals/stone/walls                    :crit, a2 , 2025-08-30, 3d
+    Inventory Dumping (Chests, Shelves)     :a1, after a2, 2d
+    
     
     section Combat & Entities
     Enemy Entities (AI + Spawning) :d1, after a1, 2d
