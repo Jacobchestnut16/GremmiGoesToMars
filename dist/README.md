@@ -28,6 +28,8 @@ gitGraph
     commit id: "TilePallet-Mountain v1.0"
     commit id: "TileMap-Mountain v1.0"
     commit id: "PlantI.F. v1.0"
+    commit id: "TileMap-Plant v1.0"
+    commit id: "TileMap-Plant v1.1"
     
 ```
 
@@ -69,8 +71,10 @@ gantt
     
     section Minerals/Agriculture
     Stone Mountains                             :crit, done, a4, after a2, 1.5d
-    Plants                                      :crit, active, a5, after a4, 0.75d
-    Tree Generation                             :crit, a6, after a5, 0.75d
+    
+    section Plants
+    Plants Classes/Maps/Generation              :crit, done, a5, after a4, 0.75d
+    Plants Images/Lookup/Grow-animation         :crit, a6, after a5, 0.75d
    
     
     section Player Core
