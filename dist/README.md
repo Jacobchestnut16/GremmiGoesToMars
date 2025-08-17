@@ -66,7 +66,7 @@ gantt
     Time Scale / Day-Night Cycle                :crit, done, a2, after a1, 1d
     
     section Minerals/Agriculture
-    Minerals/stone/walls                        :crit, a4, after a2, 3d
+    Minerals/stone/walls                        :crit, active, a4, after a2, 3d
     Plants                                      :crit, a6, after a4, 0.75d
     Tree Generation                             :a5, after a6, 0.75d
     
