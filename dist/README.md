@@ -24,6 +24,8 @@ gitGraph
     commit id: "TileMap v1.1"
     commit id: "TimeCycle v1.0"
     commit id: "TimeCycle v1.1"
+    commit id: "TilePallet-Walls v1.0"
+    commit id: "TilePallet-Mountain v1.0"
     
 ```
 
@@ -60,7 +62,7 @@ gantt
     
     
     section World Foundation
-    Tilemap Generation                          :crit, done, a1, 2025-08-14, 2d
+    Tilemap Generation                          :crit, done, a1, 2025-08-14, 1d
     Time Scale / Day-Night Cycle                :crit, done, a2, after a1, 1d
     
     section Minerals/Agriculture
