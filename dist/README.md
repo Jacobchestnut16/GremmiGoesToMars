@@ -75,20 +75,24 @@ gantt
     
     section Plants
     Plants Classes/Maps/Generation              :crit, done, a5, after a4, 0.5d
-    Plants Images/Lookup/Grow-animation         :crit, done, a6, after a5, 0.5d
+    Plants Images/Lookup/Grow-animation         :crit, done, a6, after a4, 0.5d
    
     
     section Player Core
-    Gremmi Movement                 :crit, b1, after a6, 0.5d
-    D&D-style Stat Generation       :b2, after b1, 0.5d
-    Inventory System                :crit, b3, after b1, 2d
-    Resource Interaction/Gather     :b5, after b3, 1d
+    Gremmi Movement                 :crit, b1, after a5, 0.5d
+    D&D-style Stat Generation       :b2, after a5, 0.5d
+    
+    section Game Mechanics
+    Boundaries                      :crit, c4, after b2, 0.5d
+    Chunking                        :crit, c2, after b2, 0.5d
+    
+    section Player Interaction
+    Inventory System                :crit, b3, after c2, 0.5d
+    Resource Interaction/Gather     :b5, after c2, 0.5d
     
     section Refine and release
-    Boundaries                               :crit, c1, after b3, 0.5d
-    Chunking                                 :crit, c2, after c1, 0.5d
-    Saving & Loading                         :crit, milestone, b4, after c2, 1d
-    UI system - BETA V1 OFFICIAL RELEASE     :milestone, release1, after b4, 5d
+    Saving & Loading                         :crit, milestone, b4, after b5, 1d
+    UI system - BETA V1 OFFICIAL RELEASE     :milestone, release1, after b5, 1d
 ```
 
 <pre>
@@ -122,7 +126,7 @@ gantt
     
         
     section Milestone - extras 1
-    Minerals/stone/walls                    :crit, a2 , 2025-08-30, 3d
+    Minerals/stone/walls                    :crit, a2 , 2025-08-21, 3d
     Inventory Dumping (Chests, Shelves)     :a1, after a2, 2d
     
     

@@ -3,62 +3,86 @@ Time scale:
 
 <pre>
 
-Scale 1     = 1 sec ≈ 1 Game sec
-Scale 60    = 1 sec ≈ 1 Game min
+Scale 1     = 1 sec ≈  1 Game sec
+Scale 60    = 1 sec ≈  1 Game min
+Scale 120   = 1 sec ≈  2 Game min
 Scale 600   = 1 sec ≈ 10 Game min
+______________________________________________________
+
+1 Sol   = 88775 sec ≈ 24h 39m 35s (Real mars solar day)
+1 Year  = 668 Sol's
 
 </pre>
 Default time is set to 600
 
-Day cycle:
-<pre>
+### Minutes Per Day-cycle Scale
 
-1 Sol   = 88775 sec ≈ 24h 39m 35s (Real mars solar day)
-1 Year  = 668 Sol's
-_______________________________________________________
-Scale:
-    1 Sol   = 148 sec   ≈ 2.46 min
-    1 Year  = 1647 min  ≈ 27 hrs
+            Scale    Hrs     Mins
+    Slower  1        24.6    1479.58
+    Slow    30       0.82    49.32   // May replace slow in other places too
+    Normal  60       0.41    24.66
+    Fast    120      0.20    12.33
+    Faster  600      0.04    2.47
+> This map shows how long one day would take at its scale
 
-</pre>
-## Months by season:
+### Year scale
+>(Hard-core 668 days | Forgiving 309 | Easy 93)
 
-<center><h3>Spring ~ Sols 1 - 193</h3></center>
+    Scale	      Days In Year				
+    	    669         309       93
+    1       16497.35    7619.8    2293.35
+    60      274.9559    126.99    38.2225
+    120     137.4779    63.498    19.1112
+    600     27.49559    12.699    3.82225
+> This map shows how many hours a year cycle would take at its scale
 
-    Primaris    28 Sols
-    Bellaris    28 Sols
-    Veralis     28 Sols
-    Solarius    28 Sols
-    Aestatis    28 Sols
-    Rubrialis   28 Sols
-    Septaris    26 Sols
+## Seasons, Months, Days:
 
-<center><h3>Summer ~ Sols 194 - 371</h3></center>
+>HC (Hard-core),    FG (Forgiving),     ES (Easy)
+<center><h3>Total In a Year Days</h3></center>
 
-    Valles      30 Sols
-    Autumnalis  30 Sols
-    Glacialis   30 Sols
-    Hiemalis    29 Sols
-    Brumalis    29 Sols
-    Novaris     30 Sols
+    HC    FG    ES
+    669   309   93
 
-<center><h3>Autumn  ~ Sols 372 - 513</h3></center>
+<center><h3>Spring</h3></center>
 
-    Feralis     28 Sols
-    Ventaris    28 Sols
-    Saxis       28 Sols
-    Floralis    28 Sols
-    Rubiconis   30 Sols
+                HC   FG    ES
+    Primaris    28   13    4
+    Bellaris    28   13    4
+    Veralis     28   13    4
+    Solarius    28   13    4
+    Aestatis    28   13    4
+    Rubrialis   28   13    4
+    Septaris    26   11    2
 
-<center><h3>Winter  ~ Sols 514 - 668</h3></center>
+<center><h3>Summer</h3></center>
 
-    Luxaris         26 Sols
-    Ardoris         26 Sols
-    Septentrionis   26 Sols
-    Auroris         26 Sols
-    Caelaris        26 Sols
-    Terminus        25 Sols
+                HC   FG    ES
+    Valles      30   15    6
+    Autumnalis  30   15    6
+    Glacialis   30   15    6
+    Hiemalis    29   14    5
+    Brumalis    29   14    5
+    Novaris     30   15    6
 
-> Sol's are relative to how Mars months would work, not an accurate 
-> representation of the in game days. The average of each season is closer to the amount of days in each month
-> for the in game calendar.
+<center><h3>Autumn</h3></center>
+
+                HC   FG    ES
+    Feralis     28   13    4
+    Ventaris    28   13    4
+    Saxis       28   13    4
+    Floralis    28   13    4
+    Rubiconis   30   15    6
+
+<center><h3>Winter</h3></center>
+
+                   HC   FG    ES
+    Luxaris        26   11    2
+    Ardoris        26   11    2
+    Septentrionis  26   11    2
+    Auroris        26   11    2
+    Caelaris       26   11    2
+    Terminus       25   10    1
+
+
+
