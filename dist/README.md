@@ -71,11 +71,11 @@ gantt
     Time Scale / Day-Night Cycle                :crit, done, a2, after a1, 1d
     
     section Minerals/Agriculture
-    Stone Mountains                             :crit, done, a4, after a2, 1.5d
+    Stone Mountains                             :crit, done, a4, after a2, 1d
     
     section Plants
-    Plants Classes/Maps/Generation              :crit, done, a5, after a4, 0.75d
-    Plants Images/Lookup/Grow-animation         :crit, a6, after a5, 0.75d
+    Plants Classes/Maps/Generation              :crit, done, a5, after a4, 0.5d
+    Plants Images/Lookup/Grow-animation         :crit, done, a6, after a5, 0.5d
    
     
     section Player Core
