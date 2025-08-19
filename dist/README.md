@@ -31,6 +31,8 @@ gitGraph
     commit id: "TileMap-Plant v1.0"
     commit id: "TileMap-Plant v1.1"
     commit id: "TileMap-Plant v1.2"
+    commit id: "Player/Manager V1.0"
+    commit id: "Player/Manager V1.1"
      
 ```
 
@@ -79,18 +81,19 @@ gantt
    
     
     section Player Core
-    Gremmi Movement                 :crit, b1, after a5, 0.5d
-    D&D-style Stat Generation       :b2, after a5, 0.5d
+    Gremmi Movement                 :crit, done, b1, after a5, 0.5d
+    Boundaries                      :crit, done,  c4, after b1, 0.5d
     
     section Game Mechanics
-    Boundaries                      :crit, c4, after b2, 0.5d
-    Chunking                        :crit, c2, after b2, 0.5d
+    Chunking                        :crit, c2, after c4, 0.5d
     
     section Player Interaction
     Inventory System                :crit, b3, after c2, 0.5d
     Resource Interaction/Gather     :b5, after c2, 0.5d
     
     section Refine and release
+    Menu Screen                              :crit, milestone, b9, after b5, 1d
+    D&D-style Stat Generation                :b2, after b5, 0.5d
     Saving & Loading                         :crit, milestone, b4, after b5, 1d
     UI system - BETA V1 OFFICIAL RELEASE     :milestone, release1, after b5, 1d
 ```
