@@ -82,7 +82,7 @@ gantt
     
     section Player Core
     Gremmi Movement                 :crit, done, b1, after a5, 0.5d
-    Boundaries                      :crit, done,  c4, after b1, 0.5d
+    Boundaries                      :crit, done,  c4, after a5, 0.5d
     
     section Game Mechanics
     Chunking                        :crit, c2, after c4, 0.5d
@@ -92,7 +92,7 @@ gantt
     Resource Interaction/Gather     :b5, after c2, 0.5d
     
     section Refine and release
-    Menu Screen                              :crit, milestone, b9, after b5, 1d
+    Menu Screen                              :crit, active, milestone, b9, after c4, 1d
     D&D-style Stat Generation                :b2, after b5, 0.5d
     Saving & Loading                         :crit, milestone, b4, after b5, 1d
     UI system - BETA V1 OFFICIAL RELEASE     :milestone, release1, after b5, 1d
@@ -129,7 +129,7 @@ gantt
     
         
     section Milestone - extras 1
-    Minerals/stone/walls                    :crit, a2 , 2025-08-21, 3d
+    Minerals/stone/walls                    :crit, a2 , 2025-08-21, 1d
     Inventory Dumping (Chests, Shelves)     :a1, after a2, 2d
     
     
