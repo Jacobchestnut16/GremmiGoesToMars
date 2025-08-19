@@ -19,6 +19,8 @@ Craft. Farm. Fight. And maybe… get even.
 ---
 gitGraph
     commit id: "Store Page"
+    branch BetaRelease
+    branch devTest
     branch development
     commit id: "TileMap v1.0"
     commit id: "TileMap v1.1"
@@ -33,20 +35,32 @@ gitGraph
     commit id: "TileMap-Plant v1.2"
     commit id: "Player/Manager V1.0"
     commit id: "Player/Manager V1.1"
+    checkout devTest
+    merge development id: "Test a1"
+    checkout development
      
 ```
 
+> main = Steam releases or updates
+> 
+> development = Changes to the game
+> 
+> devTest = Pre-testing environment before the beta release
+> 
+> BetaRelease = Steam beta release
 
-main = Steam releases or updates
 
-development = releases or changes to the game. These releases can be found for download in beta downloads (eg. [download](DownloadGame.md), Steam pre-release)
-
+`DevTest 1/3` before *official beta release* use the [Contact Dev](Contact.md) in order to get a beta code.
 
 ### Time line:
 
 Green = complete
 
 Red = critical path
+
+Purple = planned
+
+Light-Purple/Grey = active
 
 ```mermaid
 %%{
@@ -85,7 +99,7 @@ gantt
     Boundaries                      :crit, done,  c4, after a5, 0.5d
     
     section Game Mechanics
-    Chunking                        :crit, c2, after c4, 0.5d
+    Chunking                        :crit, c2, after c4, 1d
     
     section Player Interaction
     Inventory System                :crit, b3, after c2, 0.5d
@@ -95,7 +109,8 @@ gantt
     Menu Screen                              :crit, active, milestone, b9, after c4, 1d
     D&D-style Stat Generation                :b2, after b5, 0.5d
     Saving & Loading                         :crit, milestone, b4, after b5, 1d
-    UI system - BETA V1 OFFICIAL RELEASE     :milestone, release1, after b5, 1d
+    Implement Any Missing Feature            :crit, oversee1, after b4, 2d
+    UI system - BETA V1 OFFICIAL RELEASE     :milestone, release1, after oversee1, 1d
 ```
 
 <pre>
