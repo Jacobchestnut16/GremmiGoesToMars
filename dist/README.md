@@ -35,11 +35,79 @@ gitGraph
     commit id: "TileMap-Plant v1.2"
     commit id: "Player/Manager V1.0"
     commit id: "Player/Manager V1.1"
+    commit id: "Chunk Loader V0.1"
+    commit id: "Chunk Loader V0.2"
+    commit id: "Chunk Loader V0.3"
+    commit id: "Chunk Loader V1.0"
+    commit id: "Chunk Loader V1.1"
     checkout devTest
     merge development id: "Test a1"
     checkout development
      
 ```
+
+<details>
+    <summary>All other Game commits</summary>
+
+# Beta1
+
+```mermaid
+---
+    title: Game commit process
+    config:
+        theme: dark
+---
+gitGraph
+    commit id: "Store Page"
+    branch BetaRelease
+    branch devTest
+    branch development
+    commit id: "TileMap v1.0"
+    commit id: "TileMap v1.1"
+    commit id: "TimeCycle v1.0"
+    commit id: "TimeCycle v1.1"
+    commit id: "TilePallet-Walls v1.0"
+    commit id: "TilePallet-Mountain v1.0"
+    commit id: "TileMap-Mountain v1.0"
+    commit id: "PlantI.F. v1.0"
+    commit id: "TileMap-Plant v1.0"
+    commit id: "TileMap-Plant v1.1"
+    commit id: "TileMap-Plant v1.2"
+    commit id: "Player/Manager V1.0"
+    commit id: "Player/Manager V1.1"
+    commit id: "Chunk Loader V0.1"
+    commit id: "Chunk Loader V0.2"
+    commit id: "Chunk Loader V0.3"
+    commit id: "Chunk Loader V1.0"
+    commit id: "Chunk Loader V1.1"
+    checkout devTest
+    merge development id: "Test a1"
+    checkout development
+     
+```
+
+# Beta2
+
+```mermaid
+---
+    title: Game commit process
+    config:
+        theme: dark
+---
+gitGraph
+    commit id: "Store Page"
+    branch BetaRelease
+    branch devTest
+    branch development
+    checkout BetaRelease
+    commit id: "Beta1"
+    checkout development
+    merge BetaRelease
+    
+     
+```
+
+</details>
 
 > main = Steam releases or updates
 > 
@@ -99,14 +167,14 @@ gantt
     Boundaries                      :crit, done,  c4, after a5, 0.5d
     
     section Game Mechanics
-    Chunking                        :crit, c2, after c4, 1d
+    Chunking                        :crit,done, c2, after c4, 1d
     
     section Player Interaction
     Inventory System                :crit, b3, after c2, 0.5d
     Resource Interaction/Gather     :b5, after c2, 0.5d
     
     section Refine and release
-    Menu Screen                              :crit, active, milestone, b9, after c4, 1d
+    Menu Screen                              :crit, done, milestone, b9, after c4, 1d
     D&D-style Stat Generation                :b2, after b5, 0.5d
     Saving & Loading                         :crit, milestone, b4, after b5, 1d
     Implement Any Missing Feature            :crit, oversee1, after b4, 2d
